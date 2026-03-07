@@ -1,0 +1,63 @@
+.first{
+    border-style: solid;
+    border-radius: 10px;
+    width: 250px;
+    flex-wrap: wrap;
+    padding: 20px;
+   padding-right: 50px;
+    background:linear-gradient( 135deg,#af188c,#4B0082);
+    color:#FFD700;
+    justify-content: space-between;
+    position: relative;
+    width:fit-content ;
+}
+.zero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+h1{
+    border-style: solid;
+    border-radius: 10px;
+    background-color:#4B0082;
+    color:#FFD700;
+    text-align: center;
+    border-width: 3px;
+}
+h2{
+      background:linear-gradient( 135deg,#af188c,#4B0082);
+      text-align: center;
+      color:#FFD700 ;
+      border-radius: 10px;
+      border-style: solid;
+}
+.first button{
+    background-color:green ;
+    color: white;
+
+}
+
+.first img{
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    width: 80px;
+    height: 80px;
+}
+.first img:hover{
+   transform: scale(1.2);
+}
+button:hover{
+   font-size :20px; 
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+.zero{
+    justify-content: space-around;
+}
+body{
+    background:linear-gradient(to right, #9338d3, #b43485);
+    
+}
